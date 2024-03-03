@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Remote Access</title>
+    </head>
+    <body>
+        <h1>Welcome to Remote Access</h1>
+        <h2>You are a Server!</h2>
+        <button id="btn1">Get String!</button>
+        <p id="str"></p>
+        <p>Are You Ready?</p>
+        <button id="btn2">Ready!</button><br />
+        <div style="width: 80%; background: grey; margin: auto">
+            <video id="video" autoplay playsinline muted></video>
+        </div>
+        <div style="width: 80%; margin: auto; padding-top: 10px">
+            <button class="btn btn-primary" id="start">
+                Start Screen Sharing
+            </button>
+            <button class="btn btn-secondary" id="stop">Stop</button>
+        </div>
+        <script type="module" src="server.js"></script>
+    </body>
+</html>
